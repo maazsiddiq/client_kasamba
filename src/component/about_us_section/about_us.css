@@ -1,0 +1,100 @@
+.textshadow{
+    text-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+    -webkit-text-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+    -moz-text-shadow: 0px 3px 5px rgba(0,0,0,0.4);
+}
+.dropshadow{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+
+
+.callBanner{
+    background: url('../../images/CallBanner.svg') no-repeat;
+}
+.callBanner h2{
+    color: white;
+    font-weight: bold;
+}
+.callBanner p{
+    color: white;
+    font-size: 120%;
+}
+.callBanner img{
+    width: 40px;
+}
+
+
+
+.aboutUs h1{
+    color: #06755D;
+    font-weight: bold;
+}
+.aboutUs p{
+    font-size: 20px;
+}
+.aboutUs img{
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.becomePsychic h1{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 20px 0;
+}
+@media screen and (max-width: 990px){
+    .becomePsychic h1{
+        font-size: 30px;
+    }
+}
+.becomePsychic ul{
+    color: white;
+    font-size: 20px;
+}
+.becomePsychic h2{
+    color: #06755D;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.becomePsychic .form-group input{
+    border: 1px solid #06755D;
+    outline-color: #06755D;
+}
+.becomePsychic button{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #06755D;
+    outline: none !important;
+    border-color: #06755D;
+    color: white;
+}
+.becomePsychic button:hover{
+    background-color: #1FA178;
+    border-color: #1FA178;
+    color: white;
+}
+.becomePsychic button:active{
+    background-color: #06755D;
+    border-color: #06755D;
+    transform: scale(0.9);
+}
+.becomePsychic button img{
+    width: 15px;
+    margin: 0 5px 3px 0;
+}
+

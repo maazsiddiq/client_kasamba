@@ -1,0 +1,33 @@
+.dropshadow{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+.main_logo{
+    height: 80px;
+}
+@media screen and (max-width: 765px) {
+    .main_logo{
+        height: 50px;
+    }
+}
+
+.rambow_gradient{
+    background: linear-gradient(#110732 -20%, #29ABE0 50%, #29ABE0 60%, #1FA178 100%);
+}
+
+.nav_btn li{
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: 1s;
+    background-size:100%;
+    background-position: top;
+}
+.nav_btn li a{
+    color: #06755D !important;
+}
+.nav_btn .active{
+    color: white !important;
+}
+.nav_btn .active a{
+    color: white !important;
+    font-weight: bold;
+}

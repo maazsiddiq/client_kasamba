@@ -1,0 +1,14 @@
+.rambow_gradient{
+    background: linear-gradient(#110732 -20%, #29ABE0 50%, #29ABE0 60%, #1FA178 100%);
+}
+
+.main-footer a{
+    color: white !important;
+}
+.main-footer a:hover{
+    color: rgb(10, 228, 181) !important;
+    text-decoration: none;
+}
+.main-footer a i{
+    font-size: 28px !important;
+}
