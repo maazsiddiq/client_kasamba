@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import TopMain from "../../images/top-main.jpg";
 
 const TopMainImage = () => {
-    return (
-        <div>
-            <h1 className="text-center">Top Main Image</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <img width="100%" src={TopMain} />
+    </div>
+  );
+};
 export default TopMainImage;
